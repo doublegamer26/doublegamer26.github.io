@@ -19,21 +19,20 @@ a {
 	background-size: 100%;
 	background-position: 0% 65%;
 	background-image: url(images/back1.jpg);
+	position: relative;
 }
-
-
 
 #name {
 	color: #ffffff;
-	position: absolute;
-	left: 30%;
-	top: 60%;
+	position: relative;
+	/*left: 300px;*/
+	top: 65vh;
 	display: block;
 	font-weight: 300;
 	font-family: 'Lato', sans-serif;
-	font-size: 60px;
+	font-size: 11vh;
+	text-align: center;
 }
-
 
 .about {
 	background-color: #ddd;
@@ -47,34 +46,35 @@ a {
 
 #aboutmehead {
 	display: block;
-	padding-top: 30px;
-	padding-bottom: 60px;
+	padding-top: 6.5vh;
+	padding-bottom: 7vh;
 	font-weight: 300;
-	font-size: 60px;
+	font-size: 9.5vh;
 }
 
 .dp img {
 	display: block;
-	max-width:20%;
+	max-width: 43vh;
 	width: auto;
 	height: auto;
-	margin-left:10%;
-	margin-top: 2%;
+	margin-left:19vh;
+	margin-top: 2vh;
 	position: absolute;
 }
 
 #aboutmestuff {
 	float: right;
-	width: 50%;
+	width: 100vh;
 	position: relative;
-	margin-right: 9%;
+	margin-right: 18vh;
 	font-weight: 300;
-	font-size: 25px;
+	font-size: 3.75vh;
 }
 
 .contact {
 	background-color: #161628;
 	width: 100%;
+	font-size: 3.75vh;
 	height: 100vh;
 	text-align: center;
 	font-family: 'Lato', sans-serif;
@@ -82,20 +82,22 @@ a {
 }
 
 #room {
-	display: block;
-	position: absolute;
-	margin-top: 18%;
-	margin-left: 20%;
+	position: relative;
+	float: left;
+	font-size: 3.75vh;
+	margin-top: 25vh;
+	margin-left: 41vh;
 }
 
 #social {
 	float: right;
-	width: 50%;
+	width: 102vh;
+	font-size: 3.75vh;
 	position: relative;
-	margin-top: 17.5%;
-	margin-right: 7%;
+	margin-top: 21.5vh;
+	margin-right: 14vh;
 	font-weight: 300;
-	font-size: 25px;
+	font-size: 3.75vh;
 }
 
 #social a{
@@ -103,11 +105,11 @@ a {
 }
 
 #resume {
-	position: absolute;
-	margin-top: 35%;
-	margin-left: -10%;
-	margin-right: 10%;
-	text-decoration: none;
+	position: relative;
+	font-size: 3.75vh;
+	font-weight: 300;
+	text-align: center;
+	top: 71vh;
 }
 
 #resume a{
