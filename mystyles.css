@@ -92,12 +92,11 @@ a {
 
 #social {
 	text-align: center;
-	float: right;
-	width: 51vw;
-	font-size: 1.8vw;
 	position: relative;
+	float: right;
+	font-size: 1.8vw;
 	margin-top: 10.8vw;
-	margin-right: 7vw;
+	margin-right: 20vw;
 	font-weight: 300;
 }
 
