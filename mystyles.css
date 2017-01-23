@@ -66,9 +66,10 @@ a {
 #aboutmestuff {
 	float: right;
 	vertical-align: middle;
-	/*width: 50vw;*/
+	width: 50vw;
+	line-height: 2.2vw;
 	margin-right: 9vw;
-	margin-left: 36vw;
+	/*margin-left: 36vw;*/
 	position: relative;
 	font-weight: 300;
 	font-size: 1.85vw;
