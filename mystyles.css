@@ -66,11 +66,12 @@ a {
 #aboutmestuff {
 	float: right;
 	vertical-align: middle;
-	width: 50vw;
-	position: relative;
+	/*width: 50vw;*/
 	margin-right: 9vw;
+	margin-left: 36vw;
+	position: relative;
 	font-weight: 300;
-	font-size: 1.vw;
+	font-size: 1.85vw;
 }
 
 .contact {
